@@ -1,13 +1,18 @@
+import { Link } from 'react-router-dom'
 
 
-
-const Welcome = ({nextscreen}) => {
+const Welcome = () => {
 
    
     return (
         <div>
             <h2>Welcome</h2>
-            <button onClick={nextscreen}>Next Screen</button>
+            
+            <Link to="/register">
+            <button>Next Screen</button>
+            </Link>
+            
+            
 
             <h1></h1>
          
@@ -18,7 +23,6 @@ const Welcome = ({nextscreen}) => {
     )
 
 }
-
 
 
 export default Welcome;

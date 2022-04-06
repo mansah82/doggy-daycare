@@ -1,11 +1,16 @@
-const Info = ({nextscreen}) => {
+import { Link } from 'react-router-dom'
+
+const Info = () => {
 
 
 
 return (
     <div>
         <h2>Info</h2>
-        <button onClick={nextscreen}>Next Screen</button>
+        <Link to ="/register">
+        <button >Back to list</button>
+        </Link>
+       
     </div>
 )
 
