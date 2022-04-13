@@ -1,24 +1,20 @@
+import { Link } from 'react-router-dom';
+import './Welcome.css'
 
 
 
-const Welcome = ({nextscreen}) => {
 
-   
+const Welcome = () => {
     return (
         <div>
-            <h2>Welcome</h2>
-            <button onClick={nextscreen}>Next Screen</button>
-
-            <h1></h1>
-         
-         
+            
+            <h1 className='welcome-text'>Doggy Daycare</h1>
+            <h2 className='start-text'>Press start to countiue</h2>
+            <Link to="/register">
+            <button className='button'>Next Screen</button>
+            </Link>
+            
         </div>
-
-        
     )
-
 }
-
-
-
 export default Welcome;
