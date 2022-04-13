@@ -20,3 +20,20 @@
     grid-gap: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media only screen and (max-width: 600px)  {
+    
+    .dog-img {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .input{
+        width: 200px;
+        height: 30px;
+    }
+    
+
+
+
+}

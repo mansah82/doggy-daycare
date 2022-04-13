@@ -42,4 +42,15 @@
 .button:hover {
         background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); 
         color: #fff;
+}
+
+@media only screen and (max-width: 600px)  {
+    .info-img{
+        max-width: 280px;
+        max-height: 300px;
     }
+
+
+}
+
+
